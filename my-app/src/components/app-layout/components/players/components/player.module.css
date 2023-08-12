@@ -1,0 +1,36 @@
+.player {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.input {
+	font-family: 'Chakra Petch';
+	font-weight: 500;
+	font-size: 30px;
+	width: 60%;
+	border-radius: 15px;
+	text-align: center;
+	margin-bottom: 20px;
+	border: 10px solid rgba(80, 55, 80, 0.2);
+}
+
+.red {
+	color: red;
+}
+.blue {
+	color: blue;
+}
+.green {
+	color: green;
+}
+
+.playerIcon {
+	background-color: #ffffff;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	font-size: 64px;
+	border: 10px solid rgba(80, 55, 80, 0.2);
+}
